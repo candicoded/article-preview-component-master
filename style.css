@@ -13,10 +13,54 @@
 
 body {
   font-family: 'Manrope', sans-serif;
+  background-color: var(--Light-Grayish-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main { 
+  width: 90%;
+  margin: 1em;
+  border-radius: 1em;
+  background-color: #fff;
+}
+
+article {
+  padding: 2em;
+}
+
+.drawers-img {
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+h1 {
+  font-size: 1rem;
+  color: var(--Very-Dark-Grayish-Blue);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 0.8rem;
+  color: var(--Very-Dark-Grayish-Blue);
 }
 
 p {
   font-size: 13px;
+  color: var(--Desaturated-Dark-Blue);
+  line-height: 1.5rem;
+}
+
+.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.date {
+  color: var(--Grayish-Blue);
+  font-size: 0.8rem;
 }
 
 footer {
