@@ -25,6 +25,7 @@ main {
   margin: 1em;
   border-radius: 1em;
   background-color: #fff;
+  box-shadow: 5px 5px 10px lightgray;
 }
 
 article {
@@ -40,6 +41,7 @@ h1 {
   font-size: 1rem;
   color: var(--Very-Dark-Grayish-Blue);
   font-weight: bold;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -51,6 +53,12 @@ p {
   font-size: 13px;
   color: var(--Desaturated-Dark-Blue);
   line-height: 1.5rem;
+  margin-bottom: 2em;
+}
+
+.author-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 .avatar {
@@ -61,6 +69,11 @@ p {
 .date {
   color: var(--Grayish-Blue);
   font-size: 0.8rem;
+}
+
+.share-icon-bg {
+  background-color: var(--Light-Grayish-Blue);
+  border-radius: 50%;
 }
 
 footer {
