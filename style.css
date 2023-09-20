@@ -76,6 +76,23 @@ p {
   border-radius: 50%;
 }
 
+.share {
+  background-color: var(--Very-Dark-Grayish-Blue);
+  border-radius: 0 0 1em 1em;
+  padding: 1em 2em;
+}
+
+.share span {
+  color: var(--Grayish-Blue);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.hidden {
+  display: none;
+}
+
 footer {
   position: fixed;
   text-align: center;
