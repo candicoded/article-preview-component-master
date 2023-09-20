@@ -59,10 +59,12 @@ p {
 .author-section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .avatar {
-  width: 10%;
+  width: 40px;
+  height: 40px; 
   border-radius: 50%;
 }
 
@@ -74,12 +76,20 @@ p {
 .share-icon-bg {
   background-color: var(--Light-Grayish-Blue);
   border-radius: 50%;
+  width: 30px;
+  height: 30px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .share {
   background-color: var(--Very-Dark-Grayish-Blue);
   border-radius: 0 0 1em 1em;
   padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .share span {
@@ -87,6 +97,16 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   font-size: 0.8rem;
+}
+
+.share-icon-bg-dark {
+  background-color: var(--Desaturated-Dark-Blue);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hidden {

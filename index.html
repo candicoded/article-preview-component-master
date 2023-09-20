@@ -1,53 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Article preview component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main>
+      <img src="./images/drawers.jpg" alt="teal drawers" class="drawers-img" />
 
-</head>
-<body>
-  <main>
-    <img src="./images/drawers.jpg" alt="teal drawers" class="drawers-img">
+      <article>
+        <h1>
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
 
-    <article>
-      <h1>Shift the overall look and feel by adding these wonderful 
-      touches to furniture in your home</h1>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
 
-      <p>Ever been in a room and felt like something was missing? Perhaps 
-      it felt slightly bare and uninviting. I’ve got some simple tips 
-      to help you make any room feel complete.</p>
-      
-      <section class="author-section hidden">
-        <img src="./images/avatar-michelle.jpg" alt="michelle avatar" class="avatar">
+        <section class="author-section">
+          <img
+            src="./images/avatar-michelle.jpg"
+            alt="michelle avatar"
+            class="avatar"
+          />
+          <span>
+            <h3>Michelle Appleton</h3>
+            <span class="date">28 Jun 2020</span>
+          </span>
+          <div class="share-icon-bg">
+            <img src="./images/icon-share.svg" alt="share icon" />
+          </div>
+        </section>
+      </article>
+
+      <section class="share hidden">
+        <span>Share</span>
+
         <span>
-          <h3>Michelle Appleton</h3>
-          <span class="date">28 Jun 2020</span>
+          <img src="./images/icon-facebook.svg" alt="facebook icon" />
+          <img src="./images/icon-twitter.svg" alt="twitter icon" />
+          <img src="./images/icon-pinterest.svg" alt="pinterest icon" />
         </span>
-        <div class="share-icon-bg">
-          <img src="./images/icon-share.svg" alt="share icon">
+
+        <div class="share-icon-bg-dark ">
+          <img src="./images/icon-share.svg" alt="share icon" />
         </div>
       </section>
-    </article>
+    </main>
 
-     <section class="share">
-      <span>Share</span>
-      <img src="./images/icon-facebook.svg" alt="facebook icon">
-      <img src="./images/icon-twitter.svg" alt="twitter icon">
-      <img src="./images/icon-pinterest.svg" alt="pinterest icon">
-      <img src="./images/icon-share.svg" alt="share icon">
-    </section>
-  </main>
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Candice</a>.
-  </footer>
-</body>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Candice</a>.
+    </footer>
+  </body>
 </html>
