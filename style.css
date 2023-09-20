@@ -121,3 +121,20 @@ footer {
   width: 100%;
   font-size: 12px;
 }
+
+@media only screen and (min-width: 1440px) {
+
+  main {
+    width: 30%;
+    display: flex;
+  }
+
+  .drawers-img {
+    height: 50%;
+    border-radius: 1em 0 0 1em;
+  }
+
+  article {
+    width: 200px;
+  }
+}
