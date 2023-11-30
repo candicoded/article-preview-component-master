@@ -125,16 +125,21 @@ footer {
 @media only screen and (min-width: 1440px) {
 
   main {
-    width: 30%;
+    width: 50%;
     display: flex;
   }
 
   .drawers-img {
-    height: 50%;
+    width: 30%;
     border-radius: 1em 0 0 1em;
   }
 
   article {
-    width: 200px;
+    width: 900px;
+  }
+
+  .share-icon-bg:hover {
+    cursor: pointer;
+    background-color: var(--Grayish-Blue);
   }
 }
