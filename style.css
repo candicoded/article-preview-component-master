@@ -26,16 +26,15 @@ main {
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 5px 5px 10px lightgray;
-  /* display: grid;
-  grid-template-rows: 1fr / 3fr; */
 }
 
 article {
-  padding: 2em;
+  padding: 2em 2em 1.3em 2em;
 }
 
 .drawers-img {
   width: 100%;
+  height: 100%;
   border-radius: 20px 20px 0 0;
 }
 
@@ -46,7 +45,7 @@ h1 {
   margin-bottom: 1em;
 }
 
-h3 {
+h2 {
   font-size: 0.8rem;
   color: var(--Very-Dark-Grayish-Blue);
 }
@@ -54,7 +53,7 @@ h3 {
 p {
   font-size: 0.8rem;
   color: var(--Desaturated-Dark-Blue);
-  line-height: 1.3rem;
+  line-height: 1.5;
   margin-bottom: 2em;
 }
 
@@ -62,6 +61,10 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.author-info {
+  margin-right: 3em;
 }
 
 .avatar {
@@ -75,7 +78,7 @@ p {
   font-size: 0.8rem;
 }
 
-.share-icon-bg {
+.share-icon-light {
   background-color: var(--Light-Grayish-Blue);
   border-radius: 50%;
   width: 30px;
@@ -83,9 +86,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 
-.share {
+.share-section {
   background-color: var(--Very-Dark-Grayish-Blue);
   border-radius: 0 0 1em 1em;
   padding: 1em 2em;
@@ -94,21 +98,26 @@ p {
   align-items: center;
 }
 
-.share span {
+.share-uppercase {
   color: var(--Grayish-Blue);
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   font-size: 0.8rem;
 }
 
-.share-icon-bg-dark {
-  background-color: var(--Desaturated-Dark-Blue);
+.social-media-icons img{
+  margin-right: 1em;
+}
+
+.share-icon-dark {
+  background-color: var(--Light-Grayish-Blue);
   border-radius: 50%;
   width: 30px;
   height: 30px; 
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 
 .hidden {
@@ -124,23 +133,31 @@ footer {
   font-size: 0.8rem;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 768px) {
 
   main {
-    width: 50%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 60%;
   }
 
   .drawers-img {
-    width: 30%;
     border-radius: 20px 0 0 20px;
   }
 
   article {
-    max-width: 900px;
+    padding: 2em;
   }
 
-  .share-icon-bg:hover {
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  .author-info {
+    margin-right: 13em;
+  }  
+
+  .share-icon-light:hover {
     cursor: pointer;
     background-color: var(--Grayish-Blue);
   }

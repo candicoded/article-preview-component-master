@@ -1,8 +1,7 @@
-document.addEventListener('click', function () {
-  const shareButton = document.querySelector('.share-icon-bg');
-  const shareSection = document.querySelector('.share');
+const shareBtn = document.querySelector('.share-icon-light');
+const shareSection = document.querySelector('.share-section');
 
-  shareButton.addEventListener('click', function () {
-    shareSection.classList.toggle('hidden');
-  });
-});
+shareBtn.addEventListener('click', () => {
+  console.log('clicked')
+  // shareSection.classList.toggle("hidden")
+})
