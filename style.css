@@ -45,7 +45,7 @@ h1 {
   margin-bottom: 1em;
 }
 
-h2 {
+.author-name {
   font-size: 0.8rem;
   color: var(--Very-Dark-Grayish-Blue);
 }
