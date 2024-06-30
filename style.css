@@ -48,6 +48,8 @@ h1 {
 .author-name {
   font-size: 0.8rem;
   color: var(--Very-Dark-Grayish-Blue);
+  font-weight: bold;
+  display: block;
 }
 
 p {
